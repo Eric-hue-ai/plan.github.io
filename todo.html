@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>TO DO LIST</title>
+  <link rel="stylesheet" href="todo.css" />
+</head>
+<body>
+  <h1>TO DO LIST</h1>
+  <div class="wall" id="wall">
+        <div class="note beige">
+           <center><h3> ADD NEW NOTES</h3></center>
+    </div>
+    <div class="note">
+  <button class="delete-btn" onclick="this.parentElement.remove()">×</button>
+  <h3 contenteditable="true">New Note</h3>
+</div>
+
+    <div class="note add-note" onclick="addNote()">+</div>
+  </div>
+</div>
+  <script src="todo.js"></script>
+</body>
+</html>

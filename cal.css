@@ -1,0 +1,81 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("https://plus.unsplash.com/premium_photo-1679442886699-9d80c9ec0bcc?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmVpZ2UlMjB3YWxscGFwZXJ8ZW58MHx8MHx8fDA%3D");
+  background-color: #f3ae2d;
+  text-align: center;
+  margin: 0;
+  padding: 30px;
+}
+h1{
+    font-family: fantasy;
+    color: #8e3b00;
+}
+.calendar-container {
+  background: rgb(243, 192, 124);
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 500px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  width: 100%;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.calendar-header select {
+  font-size: 16px;
+  padding: 5px;
+}
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+}
+
+.day {
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0;
+  background: #f6a563;
+  border-radius: 8px;
+}
+
+.date {
+  text-align: center;
+  padding: 10px 0;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+.date:hover {
+  background: #d0eaff;
+}
+
+.selected {
+  background: #f1a889;
+  color: white;
+}
+
+.reminder-box {
+  margin-top: 20px;
+}
+
+#reminderInput {
+  width: calc(100% - 70px);
+  padding: 5px;
+  margin-top: 10px;
+}
+
+button {
+  padding: 6px 12px;
+  background: #c35202;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}

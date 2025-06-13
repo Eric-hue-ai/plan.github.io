@@ -1,0 +1,148 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("https://wallpapersok.com/images/hd/taped-to-wall-collage-beige-aesthetic-desktop-45sldi9naanck3v0.jpg");
+  background-color: #f3ae2d;
+}
+a{
+  background-color: #c07006;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 200px;
+  text-align: center;
+}
+
+.top-bar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.navbar {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #943700;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+.navbar a.active {
+  background-color: #e6ecdf;
+}
+.hero {
+  display: flex;
+  background-color: rgba(153, 88, 2, 0.626);
+  margin: 40px auto;
+  width: 90%;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+}
+
+.hero-left, .hero-right {
+  flex: 1;
+}
+
+.hero-left {
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-left h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #f9f7f6;
+  font-family: cursive;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.hero-buttons .btn-primary {
+  background-color: #bd5901;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 30px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+.hero-left {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px; /* adds spacing between buttons */
+}
+
+.btn-primary {
+  background-color: #c2275e;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 200px;
+  text-align: center;
+}
+
+.btn-primary:hover {
+  background-color: #a31e4e;
+}
+.quote-box {
+  margin: 30px auto;
+  padding: 20px;
+  border: 2px dashed #ae6c01;
+  background-color: #f7c388;
+  width: 80%;
+  max-width: 500px;
+  text-align: center;
+  border-radius: 12px;
+  font-style: italic;
+  color: #333;
+  font-size: 18px;
+  transition: opacity 0.5s ease-in-out;
+}
+.hero-buttons a {
+  text-decoration: none;
+  display: inline-block;
+  padding:10px 20px;
+  background-color: #c16800;
+  color: white;
+  font-family: fantasy;
+  border-radius: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+  transition: background-color 0.3s;
+}
+
+.hero-buttons a:hover {
+  background-color: #e07b00; /* hover color */
+}
+
